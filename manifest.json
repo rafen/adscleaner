@@ -11,6 +11,7 @@
         {
           "matches": ["http://grooveshark.com/*",
                       "http://*.wikipedia.org/*",
+                      "http://*.youtube.com/*",
                       "https://www.facebook.com/*", "http://www.facebook.com/*"],
           "js": ["jquery.js", "adscleaner.js"]
         }

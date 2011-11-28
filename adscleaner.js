@@ -28,6 +28,10 @@ var sites = {
                         $(this).remove();
                 });
             }
+    },
+    'youtube.com':{
+        'remove':
+            ['#watch-channel-brand-div', '#ad_creative_1']
     }
 };
 
