@@ -6,6 +6,18 @@ layout of specifics pages.
 
 ## Pages supported
 
- * grooveshark.com
- * facebook.com
- * wikipedia.org
+ * grooveshark
+ * wikipedia
+ * youtube
+ * facebook
+ * mail.live.com (hotmail) 
+ * seriales.us
+
+## Support your own pages
+
+1) Add the site domain in the mainfest.json
+
+2) Add your rules at the top of the adscleaner.js file (inside site variable)
+
+3) Enjoy!
+
