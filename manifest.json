@@ -12,7 +12,9 @@
           "matches": ["http://grooveshark.com/*",
                       "http://*.wikipedia.org/*",
                       "http://*.youtube.com/*",
-                      "https://www.facebook.com/*", "http://www.facebook.com/*"],
+                      "https://www.facebook.com/*", "http://www.facebook.com/*",
+                      "http://*.mail.live.com/*", "https://*.mail.live.com/*",
+                      "http://*.seriales.us/*"],
           "js": ["jquery.js", "adscleaner.js"]
         }
     ]

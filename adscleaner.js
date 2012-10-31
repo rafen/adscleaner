@@ -12,7 +12,8 @@ var sites = {
             '#exploreCapitalWrapper_728', '#exploreCapitalWrapper_300',
             '#artistCapitalWrapper_728', '#artistCapitalWrapper_300',
             '#albumCapitalWrapper_300', '#songCapitalWrapper_728',
-            '#songCapitalWrapper_300'],
+            '#songCapitalWrapper_300', '#sidebarCapitalWrapper_160',
+            '#capitalSidebar'],
         'exec':
             function(){
                 $('#musicCapitalWrapper_160').parent().remove();
@@ -32,6 +33,18 @@ var sites = {
     'youtube.com':{
         'remove':
             ['#watch-channel-brand-div', '#ad_creative_1']
+    },
+    'mail.live.com':{
+        'remove':
+            ['#SkyscraperContent'],
+        'exec':
+            function(){
+                $('#MainContent').css('margin-right', '0px');
+            }
+    },
+    'seriales.us':{
+        'remove':
+            ['.IL_BASE', '#pub2', '.a728']
     }
 };
 
