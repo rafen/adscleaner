@@ -1,6 +1,7 @@
 {
     "name": "Ads cleaner!",
     "version": "1.0",
+    "manifest_version": 2,
     "description": "Let clean the ads and get a better layout!",
     "icons": {
             "16": "icon16.png",
