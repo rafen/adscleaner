@@ -7,16 +7,10 @@ var sites = {
     },
     'grooveshark.com':{
         'remove':
-            ['#searchCapitalWrapper_300', '#playlistCapitalWrapper_300',
-            '#commCapitalWrapper_300', '#theme_page_header',
-            '#exploreCapitalWrapper_728', '#exploreCapitalWrapper_300',
-            '#artistCapitalWrapper_728', '#artistCapitalWrapper_300',
-            '#albumCapitalWrapper_300', '#songCapitalWrapper_728',
-            '#songCapitalWrapper_300', '#sidebarCapitalWrapper_160',
-            '#capitalSidebar'],
+            ['.capital-column', '#capital-300x250-placeholder'],
         'exec':
             function(){
-                $('#musicCapitalWrapper_160').parent().remove();
+                $('.small-home-section').css('width', '100%');
             }
     },
     'facebook.com':{
