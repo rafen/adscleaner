@@ -7,7 +7,8 @@ var sites = {
     },
     'grooveshark.com':{
         'remove':
-            ['.capital-column', '#capital-300x250-placeholder'],
+            ['.capital-column', '#capital-300x250-placeholder',
+             '#capital-300x250'],
         'exec':
             function(){
                 $('.small-home-section').css('width', '100%');
